@@ -29,7 +29,9 @@ export function getYouTubeEmbedUrl(url) {
   if (!id) return null;
 
   const embedUrl = new URL(`https://www.youtube.com/embed/${id}`);
-  embedUrl.searchParams.set("autoplay", "0");
+  // YouTube only allows reliable autoplay when the player starts muted.
+  embedUrl.searchParams.set("autoplay", "1");
+  embedUrl.searchParams.set("mute", "1");
   embedUrl.searchParams.set("playsinline", "1");
   embedUrl.searchParams.set("rel", "0");
 

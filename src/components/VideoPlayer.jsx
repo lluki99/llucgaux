@@ -40,10 +40,10 @@ export default function VideoPlayer({ url, className = "" }) {
           <iframe
             src={embedUrl}
             title="YouTube video"
-            loading="lazy"
+            loading="eager"
             referrerPolicy="strict-origin-when-cross-origin"
             className="absolute inset-0 h-full w-full"
-            allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allow="autoplay; accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowFullScreen
           />
         </div>
