@@ -1,0 +1,28 @@
+{
+  "slug": "just-die",
+  "short_description": "Sometimes dying is the only way...",
+  "cover_image_show_in_quick_glance": true,
+  "my_roles": [
+    "Game Design",
+    "Level design",
+    "Programming"
+  ],
+  "year": 2025,
+  "is_published": true,
+  "display_order": 7,
+  "description": "",
+  "content_blocks": [],
+  "title": "Just Die",
+  "screenshots": [],
+  "contributions": "<p>Just&nbsp;Die&nbsp;is&nbsp;a&nbsp;2D&nbsp;puzzle&nbsp;game&nbsp;prototype&nbsp;where&nbsp;death&nbsp;is&nbsp;the&nbsp;core&nbsp;mechanic,&nbsp;allowing&nbsp;players&nbsp;to&nbsp;change&nbsp;shape,&nbsp;and&nbsp;therefore&nbsp;ability,&nbsp;everytime&nbsp;they&nbsp;die.&nbsp;Environmental&nbsp;storytelling&nbsp;is&nbsp;integrated&nbsp;through&nbsp;dioramas&nbsp;that&nbsp;gradually&nbsp;construct&nbsp;the&nbsp;world&nbsp;while&nbsp;the&nbsp;puzzles&nbsp;are&nbsp;solved.</p>",
+  "video_url": "",
+  "download_link": "",
+  "engine": "Unity",
+  "play_link": "",
+  "genre": [
+    "PLATFORMER",
+    "puzzle"
+  ],
+  "cover_image": "media/cover.jpg",
+  "short_summary": null
+}

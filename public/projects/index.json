@@ -1,0 +1,186 @@
+[
+  {
+    "slug": "this-land-of-ours",
+    "title": "This Land of Ours",
+    "year": 2026,
+    "genre": [
+      "puzzle",
+      "casual"
+    ],
+    "my_roles": [
+      "art director",
+      "Game Design"
+    ],
+    "cover_image": "media/cover.jpg",
+    "quick_glance_size": "medium",
+    "display_order": 0,
+    "is_published": true
+  },
+  {
+    "slug": "tundra",
+    "title": "Tundra",
+    "year": 2026,
+    "genre": [
+      "walking simulator",
+      "Experimental"
+    ],
+    "my_roles": [
+      "Game Design",
+      "Level design",
+      "Narrative design",
+      "Programming",
+      "Shaders",
+      "Cinematic Designer",
+      "VIDEO EDITOR",
+      "audio editor"
+    ],
+    "cover_image": "media/cover.jpg",
+    "display_order": 0,
+    "is_published": true
+  },
+  {
+    "slug": "a-batective-story-the-stolen-scarf",
+    "title": "A Batective Story: the Stolen Scarf",
+    "year": 2025,
+    "genre": [
+      "Detective",
+      "PLATFORMER",
+      "puzzle",
+      "Comedy",
+      "casual"
+    ],
+    "my_roles": [
+      "Game Design",
+      "Narrative design",
+      "Shaders",
+      "Level design",
+      "Programming"
+    ],
+    "cover_image": "media/cover.png",
+    "quick_glance_size": "medium",
+    "display_order": 0,
+    "is_published": true
+  },
+  {
+    "slug": "run-little-auroch",
+    "title": "Run, Little Auroch",
+    "year": 2026,
+    "genre": [
+      "Action",
+      "ADVENTURE"
+    ],
+    "my_roles": [
+      "Game Design",
+      "Narrative design",
+      "Cinematic Designer"
+    ],
+    "cover_image": "media/cover.jpg",
+    "display_order": 1,
+    "is_published": true
+  },
+  {
+    "slug": "space-diva",
+    "title": "Space Diva",
+    "year": 2026,
+    "genre": [
+      "Visual Novel",
+      "Comedy"
+    ],
+    "my_roles": [
+      "VFX",
+      "Shaders",
+      "LOCALIZATION",
+      "UI"
+    ],
+    "cover_image": "media/cover.jpg",
+    "display_order": 2,
+    "is_published": true
+  },
+  {
+    "slug": "alienation",
+    "title": "Alienation",
+    "year": 2025,
+    "genre": [
+      "Experimental"
+    ],
+    "my_roles": [
+      "Game Design",
+      "Shaders",
+      "Programming"
+    ],
+    "cover_image": "media/cover.jpg",
+    "display_order": 3,
+    "is_published": true
+  },
+  {
+    "slug": "short-documentary",
+    "title": "Short Documentary",
+    "year": 2026,
+    "genre": [
+      "video editing"
+    ],
+    "my_roles": [
+      "VIDEO EDITOR",
+      "audio editor"
+    ],
+    "cover_image": "media/cover.jpg",
+    "display_order": 4,
+    "is_published": true
+  },
+  {
+    "slug": "don-t-candy-crush",
+    "title": "Don't Candy Crush",
+    "year": 2026,
+    "genre": [
+      "Action",
+      "cooperative",
+      "PLATFORMER",
+      "casual"
+    ],
+    "my_roles": [
+      "Game Design",
+      "RIGGING",
+      "ANIMATION",
+      "3D MODELING"
+    ],
+    "cover_image": "media/cover.jpg",
+    "quick_glance_size": "large",
+    "display_order": 5,
+    "is_published": true
+  },
+  {
+    "slug": "the-vfx-voyager",
+    "title": "The VFX Voyager",
+    "year": 2023,
+    "genre": [
+      "puzzle",
+      "ADVENTURE"
+    ],
+    "my_roles": [
+      "Game Design",
+      "VFX",
+      "Programming",
+      "Cinematic Designer"
+    ],
+    "cover_image": "media/cover.png",
+    "display_order": 6,
+    "is_published": true
+  },
+  {
+    "slug": "just-die",
+    "title": "Just Die",
+    "year": 2025,
+    "genre": [
+      "PLATFORMER",
+      "puzzle"
+    ],
+    "my_roles": [
+      "Game Design",
+      "Level design",
+      "Programming"
+    ],
+    "cover_image": "media/cover.jpg",
+    "display_order": 7,
+    "is_published": true
+  }
+]
