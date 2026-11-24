@@ -37,6 +37,11 @@ export default function ProjectDetail() {
     allProjects.length > 1 && currentIndex !== -1 ? allProjects[(currentIndex + 1) % allProjects.length] : null;
 
   const origin = useLocation().state?.from === "quick-glance" ? "quick-glance" : "projects";
+  const hasAdditionalContent = Boolean(
+    project.video_url ||
+    (project.content_blocks || []).length ||
+    (project.screenshots || []).length
+  );
 
   const leftRef = useRef(null);
   const [leftHeight, setLeftHeight] = useState(null);
@@ -99,6 +104,21 @@ export default function ProjectDetail() {
         </div>
 
         <RightScrollColumn height={leftHeight} className="space-y-16 min-w-0 md:pb-4 md:pr-4">
+          {!hasAdditionalContent && project.cover_image && (
+            <ScrollReveal>
+              <figure>
+                <img
+                  src={project.cover_image}
+                  alt={`${project.title} cover`}
+                  className="w-full border-4 border-white"
+                />
+                <figcaption className="mt-2 font-mono text-xs uppercase text-white/50">
+                  Project cover
+                </figcaption>
+              </figure>
+            </ScrollReveal>
+          )}
+
           {project.video_url && (
             <ScrollReveal>
               <VideoPlayer url={project.video_url} />
@@ -116,6 +136,12 @@ export default function ProjectDetail() {
               <img src={src} alt={`${project.title} screenshot ${i + 1}`} className="w-full border-4 border-white" />
             </ScrollReveal>
           ))}
+
+          {!hasAdditionalContent && !project.cover_image && (
+            <div className="border-4 border-white/30 p-8 text-center font-mono text-xs uppercase text-white/50">
+              No additional project media available.
+            </div>
+          )}
         </RightScrollColumn>
       </div>
 
